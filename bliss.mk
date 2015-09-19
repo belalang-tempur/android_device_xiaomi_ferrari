@@ -26,6 +26,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+#Bliss Audio Mod
+ BLISS_AUDIO_MOD := viper
+
 # Build prop overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="ferrari" \
