@@ -236,6 +236,23 @@ WIFI_DRIVER_FW_PATH_STA          := "sta"
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 TARGET_USES_QCOM_WCNSS_QMI       := true
 
+BLISS_WIPE_CACHES := 0
+TARGET_TC_ROM := 4.9
+TARGET_TC_KERNEL := 4.9-sm
+BLISSIFY := true
+BLISS_GRAPHITE := true
+FLOOP_NEST_OPTIMIZE := true
+TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
+FAST_MATH := true
+ENABLE_MODULAR_O3 := true
+ENABLE_LTO := true
+Link_Time_Optimizations := true
+TARGET_USE_ION_COMPAT := true
+WITH_LZMA_OTA := true
+
+USER : readone_vge
+HOST_NAME : Official Mi4i
+
 
 # inherit from the proprietary version
 -include vendor/xiaomi/ferrari/BoardConfigVendor.mk
